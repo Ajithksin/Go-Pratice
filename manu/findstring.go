@@ -20,7 +20,7 @@ func Find(name string, names ...string) {
 }
 func letsFind() {
 	Find("john", "jacob", "will", "john", "smith")
-	Find("bheem", "ram", "shyam", "bheem")
+	Find("bheem", "ram", "shyam", "bheem", "rahim")
 	Find("manu", "ajit", "pratim", "manu", "rohini")
 	Find("jack", "jill")
 }
