@@ -19,6 +19,7 @@ func TestFind(t *testing.T) {
 			names: ["Manu","Ajit","Pratim","Rohini",]string
 		},
 		want: "String found",
+		//refactoring...
 	},
 	}
 	for _, tt := range tests {
