@@ -1,8 +1,6 @@
-package ajit
+package Ajit
 
 import (
-	"os"
-	"reflect"
 	"testing"
 )
 
