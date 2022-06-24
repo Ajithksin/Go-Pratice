@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Find(name string, names ...string) {
+func Find(name string, names ...string) string {
 	fmt.Printf("type of names is %T\n", names)
 	found := false
 	for i, v := range names {
@@ -17,6 +17,7 @@ func Find(name string, names ...string) {
 		fmt.Println(name, "not found in ", names)
 	}
 	fmt.Printf("\n")
+	return "string found"
 }
 func letsFind() {
 	Find("john", "jacob", "will", "john", "smith")
