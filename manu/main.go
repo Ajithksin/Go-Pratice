@@ -11,7 +11,7 @@ type car interface {
 
 type spec struct {
 	company, drive, fuel, model string
-	price                       int 
+	price                       int
 }
 
 func (s *spec) tata() spec {
@@ -37,10 +37,10 @@ func CarType() spec {
 		company: "MAHINDRA",
 		model:   "XUV",
 		drive:   "Four-wheel Drive",
-		fuel:    "EV",  
+		fuel:    "EV",
 		price:   1500000,
 	}
 	fmt.Printf("%v", car2.mahindra())
 
-return spec{}
+	return spec{}
 }

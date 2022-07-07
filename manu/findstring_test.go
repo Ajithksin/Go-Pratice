@@ -1,4 +1,4 @@
-package main
+package manu
 
 import "testing"
 
@@ -16,7 +16,7 @@ func TestFind(t *testing.T) {
 		{name: "Finding a String",
 		args: args{
 			name: "Manu",
-			names: ["Manu","Ajit","Pratim","Rohini",]string
+		//	names: ["Manu","Ajit","Pratim","Rohini",]string
 		},
 		want: "String found",
 		//refactoring...

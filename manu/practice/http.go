@@ -25,3 +25,8 @@ func main() {
 	})
 	http.ListenAndServe(":5050", nil)
 }
+
+
+func logger(f func(http.ResponseWriter, *http.Request)){
+
+}
