@@ -21,12 +21,15 @@ func main() {
 	})
 
 	http.HandleFunc("/time&date", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Println("Today is:", time.Now())
+		fmt.Fprintf(w, "Today is:", time.Now())
 	})
+	http.HandleFunc("/developerinfo", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "Developer Name: Manu Vijaykumar Hali\n Email: manu.hali3d@gmail.com\n")
+	})
+
 	http.ListenAndServe(":5050", nil)
 }
 
-
-func logger(f func(http.ResponseWriter, *http.Request)){
+func logger(f func(http.ResponseWriter, *http.Request)) {
 
 }
