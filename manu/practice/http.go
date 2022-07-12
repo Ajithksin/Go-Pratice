@@ -13,7 +13,7 @@ func main() {
 	})
 
 	http.HandleFunc("/about", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Golang history")
+		fmt.Fprintf(w, "Golang history\n")
 	})
 
 	http.HandleFunc("/introduction", func(w http.ResponseWriter, r *http.Request) {
