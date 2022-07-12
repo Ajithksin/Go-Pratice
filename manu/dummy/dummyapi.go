@@ -1,7 +1,9 @@
 package main
 
-import "github.com/Ajithksin/Go-Pratice/tree/develop/manu/dummy/app"
+import (
+	"Go-pratice/manu/dummy/app"
+)
 
 func main() {
-	Start()
+	app.Start()
 }
